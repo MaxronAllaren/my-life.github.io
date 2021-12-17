@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>My life </title>
+</head>
+<body>
+<!--Создаём таблицу контейнер, которой задаём следующее
+оформление:
+border="1" - рамка вокруг контейнера. Увеличив число, можно увеличить толщину рамки.
+align="center" - размещаем контейнер по центру экрана.
+rules="rows" - убираем двойную рамку.
+style="width:60%;" - добавляем стилевое свойства, делающее
+контейнер и весь сайт "резиновым".
+Сделать полноценный адаптивный дизайн, этим способом невозможно.-->
+<table
+border="2"
+align="center"
+rules="rows"
+<!--Создаём строку-->
+<tr>
+<!--Создаём ячейку строки-->
+<td>
+<!--ШАПКА САЙТА-->
+
+<!--В ячейке строки создаём ещё одну таблицу для шапки сайта.
+Оформление:
+border="1" - двойная рамка толщиной в 1px
+background="images/168.png" - картинка в шапке сайта, если требуется.
+Адрес картинки вы должны вставить свой.
+bgcolor="#7FFFD4" - фоновый цвет в шапке, если нет картинки.
+cellpadding="10" - отступ содержимого от рамки не менее 10px.
+style="width:100%; border-radius:5px;" - добавляем "резиновость"
+и закругляем уголки рамки-->
+<table
+border="1"
+background="images/168.png"
+bgcolor="#ed9121"
+cellpadding="10"
+style="width:100%; border-radius:5px;">
+<!--Создаём строку таблицы-->
+<tr>
+<!--Создаём столбец таблицы-->
+<th>
+<!--Содержание ячейки столбца-->
+<h1>My life</h1>
+<h3>All about me</h3>
+<!--Закрываем таблицу-->
+</th>
+</tr>
+</table>
+
+<!--ОСНОВНОЙ КОНТЕНТ-->
+
+<!--В этой же ячейке контейнера создаём ещё одну таблицу
+для основного контента.
+Оформление как и в предыдущей таблице-->
+
+<table
+border="1"
+bgcolor="#ffa500"
+cellpadding="10"
+style="width:100%; border-radius:5px;">
+<!--Создаём строку-->
+<tr>
+<!--Создаём ячейку
+Оформление:
+rowspan="2" - объединяем две ячейки в одну.
+Число объединяемых ячеек по числу ячеек в сайдбаре.
+style="width:80%" - основной контент занимает 80% всей площади,
+оставшиеся 20% для сайдбара-->
+<td
+rowspan="2"
+style="width:80%">
+<h2>My personal form</h2>
+<!--Начинаем абзац с красной строки-->
+<p style="text-indent:20px">
+    I Aksenov Alexei Pavlovich.I am 19 years old. I am a student of college of communications № 54. I am studying for the specialty Infocommunication networks and communication systems.Just for the passage of the course mastered the classification. 
+    Before entering college, in a regional school I was actively engaged in swimming and have a grade 3 adult. After realizing that I want to have a Moscow education with a cadet bias, I soon moved to a Moscow school. 
+    It was a Moscow education with a Moscow school helped raise my grade point average and successfully pass the omega, which eventually helped me enter this specialty in college of communication № 54 Vostrukhina.
+    </p>
+
+<p style="text-indent:20px">Along with teaching life I also do my hobbies like painting and music for the game server on the game DayZ, as well as creating new 3D things on the game engine Enfusion Engine for the game server DayZ "BlackWood".
+    The working moments are in the "creativity"masonry
+    .</p>
+<!--Закрываем ячейку-->
+</td>
+
+<!--САЙДБАР-->
+
+<!--Создаём ячейку сайдбара-->
+<td bgcolor="#ffa500">
+<h3>Menu</h3>
+<!--Абзац для ссылки на страницу сайта-->
+<p>
+<!--Ссылка на страницу сайта-->
+<a href="https://sun9-62.userapi.com/impg/kLb9X9VRKHhgfVSDdW7Ub6sq8IHSZDWc1zPuKA/AkO75d9AB4Q.jpg?size=684x356&quality=96&sign=dcdcc28ad06cbd2d7f4b134c99b7f77c&type=album">
+<!--Картинка маркера перед названием страницы-->
+<img src="http://trueimages.ru/img/00/06/f4fffdb5.png">
+<!--Название страницы
+style="margin-left:5px;" - отступ названия от маркера-->
+<span style="margin-left:5px;">Creativity Enfusion Engine 3D</span></a>
+</p>
+<p>
+    <a href="https://sun9-86.userapi.com/impg/Xl8TC1_RAXMZBKoEb3_CBIqA0ypAKYZ9pbrAqg/w8sSpcn0eE4.jpg?size=468x422&quality=96&sign=b4ab935dc723d675d616a13cd8d54c56&type=album">
+    <img src="http://trueimages.ru/img/00/06/f4fffdb5.png">
+    <span style="margin-left:5px;">Creativity 1 Enfusion Engine code</span;></a>
+    </p>
+<p>
+<a href="https://sun9-87.userapi.com/impg/P19BS3-qowZmR2GV-8YkL5RIJBYPFfF_cVaFKA/FB4Yi84NHxE.jpg?size=1280x773&quality=96&sign=f2b674402c05cd84e17f91579b09a318&type=album">
+<img src="http://trueimages.ru/img/00/06/f4fffdb5.png">
+<span style="margin-left:5px;">Creativity 2 Art furry-shark</span;></a>
+</p>
+<p>
+<a href="https://sun9-27.userapi.com/impg/GkpSNHJLe114YkXu91LEVxU4G0ubp7L8DhctfQ/943e6eK4-X0.jpg?size=721x194&quality=96&sign=0a850bf0468c36491671e49a35fbaa45&type=album">
+<img src=http://trueimages.ru/img/00/06/f4fffdb5.png>
+<span style="margin-left:5px;">Creativity 3 creativity music</span></a>
+</p>
+<!--Закрываем строку Меню-->
+</td>
+</tr>
+<!--Создаём строку с дополнительной информацией-->
+<tr>
+<!--Ячейка с дополнительной информацией-->
+<td
+bgcolor="d6ae01"
+align="center">
+<h3>My account in spotify</h3>
+<p>
+We are very dependent on music and have a spotifae account that you can log in to https://open.spotify.com/user/4vfzi9yfmi49psdnc0o6t63gx?si=b6f04db4c53648aa
+.And i love warm colors</p>
+<!--Закрываем ячейку с общей информацией
+и таблицу основного контента-->
+</td>
+</tr>
+</table>
+
+<!--ПОДВАЛ-->
+
+<!--Создаём таблицу подвала-->
+<table
+border="1"
+bgcolor="#ed9121"
+height="100"
+cellpadding="10"
+style="width:100%; border-radius:5px;">
+<!--Создаём строку.-->
+<tr>
+<!--Создаём столбец-->
+<th>
+<h3>End</h3>
+<!--Закрываем таблицу подвала. При желании в подвале можно
+сделать несколько строк и столбцов-->
+</th>
+</tr>
+</table>
+<!--Закрываем таблицу контейнера-->
+</td>
+</tr>
+</table>
+</body>
+</html>
